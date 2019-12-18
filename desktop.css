@@ -6,7 +6,7 @@
 
 #board-info #viewers-area #viewers:after {
 
-  content: "명의 불고기들";    /* 숫자 뒤에 들어갈 문구 */
+  content: "명의 불고기";    /* 숫자 뒤에 들어갈 문구 */
 
       /* ex) content: "명 접속중"; */
 
