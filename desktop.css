@@ -1,3 +1,8 @@
+#board-info #board-info-profile-img {
+  float: left !important;
+  margin-right: 5px;
+}
+
 /*트게더 아이콘 변경*/
 header .row>div:nth-child(1)>a>img {
 
