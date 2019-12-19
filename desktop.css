@@ -1,3 +1,16 @@
+/* 트게더 아이콘 ver_1 텍스트 변경*/
+header .row>div:nth-child(1)>a>img {
+
+  display: none;
+
+}
+
+header .row>div:nth-child(1)>a::before{
+
+  content: "불게더";
+
+}
+
 /* 방문자 */
 #board-info #viewers-area {
   color: #980528; /* 접속자 수 글씨 색 */
