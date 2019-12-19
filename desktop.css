@@ -1,13 +1,21 @@
-/* 트게더 아이콘 ver_1 텍스트 변경*/
+/*트게더 아이콘 변경*/
 header .row>div:nth-child(1)>a>img {
 
   display: none;
 
 }
 
-header .row>div:nth-child(1)>a::before{
+header .row>div:nth-child(1)>a {
 
-  content: "불게더";
+  display: block;
+
+  width: 145px;
+
+  height: 50px;
+
+  background: url("./img/img_1.png") no-repeat;
+
+  background-size: auto 50px;
 
 }
 
