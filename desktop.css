@@ -24,7 +24,6 @@
 }
 
 .dropdown-menu>li>a:hover {
-    background: transparent;
     transform: scaleX(1.04);
     transition: .1s;
 }
