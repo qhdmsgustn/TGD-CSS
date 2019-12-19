@@ -3,8 +3,12 @@
   margin-right: 5px;
 }
 
+#board-info #score-area {
+  float: right;
+}
+
 #board-info #viewers-area {
-  float: left !important;
+  float: left;
 }
 
 /*트게더 아이콘 변경*/
