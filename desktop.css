@@ -3,6 +3,10 @@
   margin-right: 5px;
 }
 
+#board-info #viewers-area {
+  float: left !important;
+}
+
 /*트게더 아이콘 변경*/
 header .row>div:nth-child(1)>a>img {
 
