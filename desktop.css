@@ -29,9 +29,16 @@ header .row>div:nth-child(1)>a {
   color: #980528; /* 접속자 수 글씨 색 */
 }
 
+#board-info #viewers-area #viewers:before {
+
+  content: "불고기 ";    /* 숫자 앞에 들어갈 문구 */
+      /* ex) content: "트수 "; */
+  cursor: text;
+}
+
 #board-info #viewers-area #viewers:after {
 
-  content: "명의 불고기 방문";
+  content: "인분";
       /* ex) content: "명 접속중"; */
   cursor: text;
 
