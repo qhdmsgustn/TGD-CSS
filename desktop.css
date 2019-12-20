@@ -1,3 +1,18 @@
+/*마우스 오버시 확대*/
+.article-list-row has-category    div:hover {
+  -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+       -o-transform: scale(1.2);
+          transform: scale(1.2);  
+}
+
+.article-list-row has-category    div:hover {
+  -webkit-transition: all 0.1s linear;
+          transition: all 0.1s linear;
+}
+
+/*프로필 부분 정리*/
 #board-info #board-info-profile-img {
   float: left !important;
   margin-right: 5px;
