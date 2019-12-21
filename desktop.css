@@ -47,6 +47,12 @@
   border-bottom: 1px solid #f6f0ff;
 }
 
+
+/*댓글 색상*/
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #e5b539;
+}
+
 /*마우스 오버시 확대*/
 #article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
   transform: scale(1.05);
