@@ -34,13 +34,13 @@
 /*메인 배너*/
 #main #main-content>div.frame {
   border-top: 5px solid #e5b539 !important;
-  border: 1px solid #e5b539; 
+  border: 3px solid #e5b539; 
   border-radius: 10px 10px 15px 15px;
 }
 
 /*페이지 넘버*/
 .pagination > li > a {
-	border-radius: 35px;
+	border-radius: 30px;
 	border: none;
 }
 .pagination > li > a, .pagination > li > span {
@@ -68,16 +68,25 @@
 .pagination > li:first-child > span,
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
-	border-radius: 35px;
+	border-radius: 30px;
 }
 
 /*공지*/
 #article-list>.article-list-row.notice {
-  background-color: #f6f0ff; /* 공지 배경 색 */
+  background-color: #e5b43980; /* 공지 배경 색 */
+}
+
+#article-list #article-list-category>a {
+  background: #e5b43980;
+}
+
+#article-list #article-list-category {
+  background: #e5b43980;
+  border-top: 2px solid #e5b539;
 }
 
 #article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
-  border-bottom: 1px solid #f6f0ff;
+  border-bottom: 1px solid #e5b43980;
 }
 
 
