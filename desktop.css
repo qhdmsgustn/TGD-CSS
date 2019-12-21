@@ -38,6 +38,39 @@
   border-radius: 10px 10px 15px 15px;
 }
 
+/*페이지 넘버*/
+.pagination > li > a {
+	border-radius: 35px;
+	border: none;
+}
+.pagination > li > a, .pagination > li > span {
+	color: #e5b539;/*및 색상*/
+}
+/* 선택된버튼 focus, hover */
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+	background-color: #e5b539;
+}
+/* 일반버튼 hover */
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+	background-color: #e5b43980;
+	color: #e5b539;
+}
+/* 좌우버튼 radius */
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+	border-radius: 35px;
+}
+
 /*공지*/
 #article-list>.article-list-row.notice {
   background-color: #f6f0ff; /* 공지 배경 색 */
