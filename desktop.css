@@ -1,8 +1,8 @@
-@font-face { font-family: 'Handon3gyeopsal600g'; 
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal600g.woff') format('woff');
-  font-weight: normal; 
-  font-style: normal; }
-  *{font-family:'Handon3gyeopsal600g'}
+@font-face { font-family: 'Handon3gyeopsal300g';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal300g.woff') format('woff');
+   font-weight: normal;
+   font-style: normal; }
+  *{font-family:'Handon3gyeopsal300g'}
 
 /*마우스 오버시 확대*/
 #article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
