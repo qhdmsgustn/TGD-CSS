@@ -14,9 +14,13 @@
 	overflow: hidden;
 }
 
+#main .menu-wrapper>a>em {
+  color: #e5b539;
+}
+
 #main .menu-wrapper>.header {
   background: #e5b539; /* 좌측 메뉴 제목 배경 색 */
-  border-radius: 15px 15px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 #main .menu-wrapper a:nth-last-child(1) {
@@ -29,8 +33,9 @@
 
 /*메인 배너*/
 #main #main-content>div.frame {
-  border-top: 5px solid #e5b539 !important; /* 메인 배너 테두리 */
-  border: 1px solid #e5b539; /* 메인 배너 테두리 */
+  border-top: 5px solid #e5b539 !important;
+  border: 1px solid #e5b539; 
+  border-radius: 10px,10px,15px,15px;
 }
 
 /*공지*/
@@ -38,12 +43,15 @@
   background-color: #f6f0ff; /* 공지 배경 색 */
 }
 
+#article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
+  border-bottom: 1px solid #f6f0ff;
+}
 
 /*마우스 오버시 확대*/
 #article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
   transform: scale(1.05);
   transition: all 0.1s linear;
-  background-color: #f1f5c2
+  background-color: #e5b43946
 }
 
 /*프로필 부분 정리*/
