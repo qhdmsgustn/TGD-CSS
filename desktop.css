@@ -35,7 +35,7 @@
 #main #main-content>div.frame {
   border-top: 5px solid #e5b539 !important;
   border: 1px solid #e5b539; 
-  border-radius: 10px,10px,15px,15px;
+  border-radius: 10px 10px 15px 15px;
 }
 
 /*공지*/
