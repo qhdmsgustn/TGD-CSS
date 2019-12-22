@@ -29,6 +29,7 @@ header #header-bar>.row {
   border-radius: 45px;
 }
 
+
 header #header-bar #header-top-notice strong.notice-badge {
   background: #e5b539;
 }
@@ -64,6 +65,10 @@ header #header-bar #header-top-notice strong.notice-badge {
   border: 5px solid #e5b539;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 5px 7px 20px 3px grey;
+}
+
+#article-list #article-list-category > a:hover {
+  animation: infinite LinkBG 1.5s;
 }
 
 #article-list{
@@ -276,3 +281,8 @@ span.a-badge .fa.fa-star {
   100% {transform: scale(1, 1);}
 }
 
+@keyframes LinkBG {
+  0% { background-color: #ffffff; }
+  40% { background-color: #e5b43980; }
+  100% { background-color: #e5b439; }
+}
