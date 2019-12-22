@@ -22,7 +22,7 @@ body {
 /*검색*/
 header #right-search-form>input[type=text] {
   border: 3px solid #e5b539;
-  box-shadow: 5px 7px 20px 3px grey;
+  box-shadow: 3px 4px 10px 0px grey;
 }
 
 header #right-search-form>#right-search-btn {
@@ -40,7 +40,7 @@ header #header-bar>.row {
   padding-top: 0.5em;
   padding-bottom: none;
   border-radius: 45px;
-  box-shadow: 5px 7px 20px 3px grey;
+  box-shadow: 3px 4px 10px 0px grey;
 }
 
 
