@@ -1,4 +1,4 @@
-/*최종_3*/
+/*최종_4*/
 @font-face { 
   font-family: 'KHNPHD'; 
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff') format('woff'); 
@@ -6,6 +6,10 @@
   font-style: normal; 
 }
   *{font-family:'KHNPHD'}
+
+html, body {
+    background: #e5b5392e;
+}
 
 /*검색*/
   header #right-search-form>input[type=text] {
