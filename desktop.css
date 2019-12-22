@@ -19,7 +19,6 @@ body {
     url("./img/snow.png"), url("./img/snow2.png"), url("./img/snow3.png");
 }
 
-
 /*검색*/
 header #right-search-form>input[type=text] {
   border: 3px solid #e5b539;
@@ -301,3 +300,8 @@ span.a-badge .fa.fa-star {
   40% { background-color: #e5b43980; }
   100% { background-color: #e5b439; }
 }
+
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
