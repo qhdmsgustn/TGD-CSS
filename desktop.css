@@ -12,11 +12,11 @@ body {
   height: auto !important;
   background: #e5b5392e;
 
-  /*눈효과 ㅋ_ㅋ*/
+/*눈효과 ㅋ_ㅋ*/
   min-width:1140px;
   animation: sn_ow 35s linear infinite;
   background-image:
-    url("./img/snow.png"), url("./img/snow2.png"), url("./img/snow3.png");
+    url("./img/snow.png"), url("./img/snow2.png"), url("./img/snow3.png"), url("./img/snow4.png");
 }
 
 /*검색*/
