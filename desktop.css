@@ -14,7 +14,7 @@ body {
 
   /*눈효과 ㅋ_ㅋ*/
   min-width:1140px;
-  animation: snow 35s linear infinite;
+  animation: sn_ow 35s linear infinite;
   background-image:
     url("./img/snow.png"), url("./img/snow2.png"), url("./img/snow3.png");
 }
@@ -301,7 +301,7 @@ span.a-badge .fa.fa-star {
   100% { background-color: #e5b439; }
 }
 
-@keyframes snow {
+@keyframes sn_ow {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
   }
