@@ -1,4 +1,4 @@
-/*수정_4*/
+/*수정_6*/
 @font-face { 
   font-family: 'KHNPHD'; 
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff') format('woff'); 
@@ -39,6 +39,11 @@
   border: 5px solid #e5b539;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 5px 7px 20px 3px grey;
+}
+
+#article-list{
+  margin-top: 0.5em;
+  padding: 0 1em 2em;
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
@@ -134,9 +139,14 @@
 }
 
 /*프로필 부분 정리*/
+#board-info{
+  margin: none;
+}
+
 #board-info #board-info-profile-img {
   float: left !important;
-  margin-right: 5px;
+  width: 64px;
+  transform: translate(-1em, -0.9em);
 }
 
 #board-info #score-area {
