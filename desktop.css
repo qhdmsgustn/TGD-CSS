@@ -158,7 +158,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /*공지*/
 #article-list>.article-list-row.notice {
-  background: linear-gradient(89deg, #e5b43980, #ffffff);
+  background: linear-gradient(89deg, #e5b43980, #e2d2ab80);
   background-size: 400% 400%;
   animation: ScrollAngle 5s ease infinite;
 }
