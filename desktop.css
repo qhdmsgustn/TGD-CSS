@@ -1,4 +1,4 @@
-/*수정_3*/
+/*수정_4*/
 @font-face { 
   font-family: 'KHNPHD'; 
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff') format('woff'); 
@@ -9,10 +9,11 @@
   *{font-family:'KHNPHD'}
 
   /* 좌측 메뉴 */
-#main .menu-wrapper {
-  border: 3px solid #e5b539;
-	border-radius: 15px;
-	overflow: hidden;
+ #main .menu-wrapper {
+    border: 5px solid #e5b539;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 7px 10px 5px grey;
 }
 
 #main .menu-wrapper>a>em {
@@ -35,8 +36,9 @@
 /*메인 배너*/
 #main #main-content>div.frame {
   border-top: 5px solid #e5b539 !important;
-  border: 3px solid #e5b539; 
-  border-radius: 10px 10px 15px 15px;
+  border: 5px solid #e5b539;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 5px 7px 20px 3px grey;
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
@@ -98,13 +100,13 @@
 }
 
 #article-list #article-list-category>a {
-  padding: 13px 16px 11px 16px;
   background: #e5b4394a;
 }
 
 #article-list #article-list-category {
-  background: #e5b43980;
-  border-top: 2px solid #e5b539;
+  background: #e5b439;
+  border-top: 4px solid #e5b539;
+  border-right: none;
 }
 
 #article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
@@ -115,11 +117,13 @@
 /*댓글 색상*/
 #article-list>.article-list-row>.item>.list-header>span {
   background-color: #e5b539;
+  padding: 3px 6px;
+  font-size: 12px;
 }
 
 /*마우스 오버시 확대*/
 #article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
-  transform: scale(1.05);
+  transform: scale(1.04);
   transition: all 0.1s linear;
   background-color: #e5b43946
 }
