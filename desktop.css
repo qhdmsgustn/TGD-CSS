@@ -1,4 +1,4 @@
-/*수정_6*/
+/*수정_7*/
 @font-face { 
   font-family: 'KHNPHD'; 
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff') format('woff'); 
@@ -8,7 +8,19 @@
 
   *{font-family:'KHNPHD'}
 
-  /* 좌측 메뉴 */
+/*상단 메뉴*/
+header #header-bar>.row {
+  border: 5px solid #e5b539;
+  padding-top: 0.5em;
+  padding-bottom: none;
+  border-radius: 45px;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+  background: #e5b539;
+}
+
+/* 좌측 메뉴 */
  #main .menu-wrapper {
     border: 5px solid #e5b539;
     border-radius: 20px;
@@ -43,7 +55,11 @@
 
 #article-list{
   margin-top: 0.5em;
-  padding: 0 1em 2em;
+  padding: 0em 0em 2em;
+}
+
+#article-list>.article-list-row {
+  border-right: none;
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
@@ -52,6 +68,11 @@
 
 #article-list>.article-list-row>.item>.list-checkbox {
   width: 44.8px;
+}
+
+/*하단 메뉴*/
+#article-list #article-list-menu {
+  margin: 1.5em 1em;
 }
 
 /*페이지 넘버*/
@@ -97,6 +118,10 @@
   color: #fff;
   background-color: #e5b43944;
   border-color: #ffffff;
+}
+
+#article-list #article-list-menu>.btn.write {
+  right: 35px;
 }
 
 /*공지*/
