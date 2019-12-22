@@ -158,7 +158,9 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /*공지*/
 #article-list>.article-list-row.notice {
-  background-color: #e5b43980; /* 공지 배경 색 */
+  background: linear-gradient(89deg, #e5b43980, #ffffff);
+  background-size: 400% 400%;
+  animation: ScrollAngle 5s ease infinite;
 }
 
 #article-list>.article-list-row>.item>.list-header {
@@ -276,6 +278,12 @@ small.favo i.fa.fa-heart {
 
 span.a-badge .fa.fa-star {
   animation: star 1s infinite;
+}
+
+@keyframes ScrollAngle {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
 }
 
 @keyframes heartbeat {
