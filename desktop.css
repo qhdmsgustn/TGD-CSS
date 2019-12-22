@@ -1,4 +1,4 @@
-/*최종*/
+/*최종_눈 추가*/
 @font-face { 
   font-family: 'KHNPHD'; 
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff') format('woff'); 
@@ -11,6 +11,12 @@
 body {
   height: auto !important;
   background: #e5b5392e;
+
+  /*눈효과 ㅋ_ㅋ*/
+  min-width:1140px;
+  animation: snow 35s linear infinite;
+  background-image:
+    url("./img/snow.png"), url("./img/snow2.png"), url("./img/snow3.png");
 }
 
 
