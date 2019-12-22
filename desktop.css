@@ -13,7 +13,7 @@
     border: 5px solid #e5b539;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 2px 7px 10px 5px grey;
+    box-shadow: 2px 7px 10px 2px grey;
 }
 
 #main .menu-wrapper>a>em {
@@ -43,6 +43,10 @@
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
   color: #a2a2a2 !important;
+}
+
+#article-list>.article-list-row>.item>.list-checkbox {
+  width: 44.8px;
 }
 
 /*페이지 넘버*/
@@ -101,6 +105,7 @@
 
 #article-list #article-list-category>a {
   background: #e5b4394a;
+  font-size: 13px;
 }
 
 #article-list #article-list-category {
