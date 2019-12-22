@@ -1,4 +1,4 @@
-/*공지_패치*/
+/*폰트수정*/
 @font-face { 
   font-family: 'KHNPHD'; 
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff') format('woff'); 
@@ -185,8 +185,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /*댓글 색상*/
 #article-list>.article-list-row>.item>.list-header>span {
-  background-color: #e5b539;
-  padding: 3px 6px;
+  background-color: none;
+  color:#FF9800;
   font-size: 12px;
 }
 
