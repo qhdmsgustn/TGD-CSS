@@ -68,7 +68,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #article-list #article-list-category > a:hover {
-  animation: infinite LinkBG 1.5s;
+  animation: infinite LinkBG 1s;
 }
 
 #article-list{
