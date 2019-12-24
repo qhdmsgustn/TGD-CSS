@@ -245,7 +245,7 @@ header .row>div:nth-child(1)>a {
   cursor: text;
 }
 
-#board-info #viewers-area #viewers {
+#board-info #viewers-area #viewers::after {
 
   content: "인분 꿀~꺽";
       /* ex) content: "명 접속중"; */
