@@ -19,11 +19,13 @@ body {
     url("./img/snow.png"), url("./img/snow2.png"), url("./img/snow3.png"), url("./img/snow4.png");
 }
 
+/*
 header{
   background-image: url(./img/top_img.png);
   background-repeat: no-repeat;
   background-position: center;
 }
+*/
 
 /*검색*/
 header #right-search-form>input[type=text] {
