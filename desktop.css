@@ -7,10 +7,22 @@
 }
   *{font-family:'KHNPHD'}
 
+header:before {
+    display: block;
+    width: 100%;
+    height: 70px;
+    background: url(./img/top.png) no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    padding: 0;
+    content: " ";
+    margin-bottom: -50px;
+}
 
 body {
   height: auto !important;
-  background: #e5b5392e;
+  background: #FFE8AF;
 
 /*눈효과 ㅋ_ㅋ*/
   min-width:1140px;
