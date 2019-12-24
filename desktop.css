@@ -1,4 +1,5 @@
-/*상단사진추가*/
+/*상단 이미지 수정*/
+
 @font-face { 
   font-family: 'KHNPHD'; 
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff') format('woff'); 
@@ -10,14 +11,18 @@
 body {
   height: auto !important;
   background: #FFE8AF;
-  background-image: url(./img/top.png);
-  background-position: top center;
   
 /*눈효과 ㅋ_ㅋ*/
   min-width:1140px;
   animation: sn_ow 35s linear infinite;
   background-image:
     url("./img/snow.png"), url("./img/snow2.png"), url("./img/snow3.png"), url("./img/snow4.png");
+}
+
+header{
+  background-image: url(./img/top_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*검색*/
@@ -240,7 +245,7 @@ header .row>div:nth-child(1)>a {
   cursor: text;
 }
 
-#board-info #viewers-area #viewers:after {
+#board-info #viewers-area #viewers {
 
   content: "인분 꿀~꺽";
       /* ex) content: "명 접속중"; */
