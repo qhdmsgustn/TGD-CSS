@@ -29,6 +29,7 @@ header{
   padding-top: 15px;
 }
 
+
 /*검색*/
 header #right-search-form>input[type=text] {
   border: 3px solid #e5b539;
@@ -112,10 +113,15 @@ header #header-bar #header-top-notice strong.notice-badge {
   width: 44.8px;
 }
 
+#article-list>.article-list-row>.item>.list-header.v0>span {
+  display: none;
+}
+
 /*하단 메뉴*/
 #article-list #article-list-menu {
   margin: 1.5em 1em;
 }
+
 
 /*페이지 넘버*/
 .pagination > li > a {
