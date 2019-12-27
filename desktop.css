@@ -25,15 +25,14 @@ body {
 }
 
 
-header{
-  /*
+/*header{
+
   background-image: url(./img/top_img.png);
   background-repeat: no-repeat;
   background-position: center;
-  */
-  padding-top: 15px;
-}
 
+}
+*/
 
 /*검색*/
 header #right-search-form>input[type=text] {
@@ -51,6 +50,11 @@ header #right-search-form>#right-search-btn {
 }
 
 /*상단 메뉴*/
+
+header #header-bar {
+  margin-top: 1px;
+}
+
 header #header-bar>.row {
   border: 5px solid #e5b539;
   padding-top: 0.5em;
@@ -244,7 +248,7 @@ header .row>div:nth-child(1)>a {
   display: block;
   width: 200px;
   height: 50px;
-  animation: logo_ain 1s infinite;
+  animation: logo_ain 1.1s infinite;
   background-repeat:no-repeat;
   background-size: auto 50px;
 }
