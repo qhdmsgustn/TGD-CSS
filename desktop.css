@@ -1,4 +1,4 @@
-/*상단 줄*/
+/*로고 변경*/
 
 @font-face { 
   font-family: 'KHNPHD'; 
@@ -244,7 +244,8 @@ header .row>div:nth-child(1)>a {
   display: block;
   width: 200px;
   height: 50px;
-  background: url("./img/logo.png") no-repeat;
+  animation: logo_ain 1s infinite;
+  background-repeat:no-repeat;
   background-size: auto 50px;
 }
 
@@ -334,3 +335,12 @@ span.a-badge .fa.fa-star {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
   }
+
+@keyframes logo_ain {
+  from{
+   background-image: url( ./img/logo_a.png)
+  } 
+  to{
+   background-image: url( ./img/logo_b.png)
+  }
+}
