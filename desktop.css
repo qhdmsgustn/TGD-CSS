@@ -248,7 +248,7 @@ header .row>div:nth-child(1)>a {
   display: block;
   width: 200px;
   height: 50px;
-  animation: logo_ain 1.1s infinite;
+  animation: logo_ani 1.5s infinite;
   background-repeat:no-repeat;
   background-size: auto 50px;
 }
@@ -340,11 +340,14 @@ span.a-badge .fa.fa-star {
   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
   }
 
-@keyframes logo_ain {
-  from{
-   background-image: url( ./img/logo_a.png)
-  } 
-  to{
-   background-image: url( ./img/logo_b.png)
-  }
-}
+@keyframes logo_ani {
+   0%{
+    background-image: url( ./img/logo_a.png)
+   } 
+   50%{
+    background-image: url( ./img/logo_b.png)
+   }
+   100%{
+    background-image: url( ./img/logo_a.png)
+   }
+ }
