@@ -248,7 +248,7 @@ header .row>div:nth-child(1)>a {
   display: block;
   width: 200px;
   height: 50px;
-  animation: logo_ani 1.5s infinite;
+  animation: logo_ani 1s infinite step-start;
   background-repeat:no-repeat;
   background-size: auto 50px;
 }
@@ -341,13 +341,16 @@ span.a-badge .fa.fa-star {
   }
 
 @keyframes logo_ani {
-   0%{
-    background-image: url( ./img/logo_a.png)
-   } 
-   50%{
-    background-image: url( ./img/logo_b.png)
-   }
-   100%{
-    background-image: url( ./img/logo_a.png)
-   }
- }
+  0%{
+   background-image: url( ./logo_b.png)
+  } 
+  35%{
+   background-image: url( ./logo_a.png)
+  }
+  70%{
+   background-image: url( ./logo_b.png)
+  }
+  100%{
+   background-image: url( ./logo_a.png)
+  }
+} 
