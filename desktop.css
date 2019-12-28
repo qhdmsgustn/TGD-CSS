@@ -1,4 +1,4 @@
-/*로고 변경*/
+/*로고 오류 변경*/
 
 @font-face { 
   font-family: 'KHNPHD'; 
@@ -342,15 +342,15 @@ span.a-badge .fa.fa-star {
 
 @keyframes logo_ani {
   0%{
-   background-image: url( ./logo_b.png)
+   background-image: url( ./img/logo_b.png)
   } 
   35%{
-   background-image: url( ./logo_a.png)
+   background-image: url( ./img/logo_a.png)
   }
   70%{
-   background-image: url( ./logo_b.png)
+   background-image: url( ./img/logo_b.png)
   }
   100%{
-   background-image: url( ./logo_a.png)
+   background-image: url( ./img/logo_a.png)
   }
 } 
