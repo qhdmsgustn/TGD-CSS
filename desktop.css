@@ -1,4 +1,4 @@
-/*새해기념*/
+/*새해기념_변경*/
 
 @font-face { 
   font-family: 'KHNPHD'; 
@@ -20,7 +20,7 @@ body {
 */
 /*새해기념 배경*/
 background: url("./img/bok.gif") fixed;
-height: auto;
+height: auto !important;
 }
 
 /*새해기념 헤더*/
