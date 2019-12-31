@@ -9,9 +9,10 @@
   *{font-family:'KHNPHD'}
 
 body {
+/*
   height: auto !important;
   background: #FFE8AF;
-/*
+
   min-width:1140px;
   animation: sn_ow 35s linear infinite;
   background-image:
@@ -19,7 +20,6 @@ body {
 */
 /*새해기념 배경*/
 background-image: url("./img/bok.gif")
-
 }
 
 
