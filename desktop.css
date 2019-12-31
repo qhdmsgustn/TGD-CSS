@@ -19,7 +19,7 @@ body {
     url("./img/snow.png"), url("./img/snow2.png"), url("./img/snow3.png"), url("./img/snow4.png");
 */
 /*새해기념 배경*/
-background-image: url("./img/bok.gif")
+background-image: url("./img/bok.gif") fixed;
 }
 
 
