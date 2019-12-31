@@ -20,7 +20,7 @@ body {
 */
 /*새해기념 배경*/
 background: url("./img/bok.gif") fixed;
-height: 1700px;
+height: auto;
 }
 
 /*새해기념 헤더*/
