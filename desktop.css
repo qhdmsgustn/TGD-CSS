@@ -1,4 +1,4 @@
-/*새해기념 배경*/
+/*새해기념*/
 
 @font-face { 
   font-family: 'KHNPHD'; 
@@ -19,7 +19,7 @@ body {
     url("./img/snow.png"), url("./img/snow2.png"), url("./img/snow3.png"), url("./img/snow4.png");
 */
 /*새해기념 배경*/
-background-image: url("./img/bok.gif") fixed;
+background: url("./img/bok.gif") fixed;
 }
 
 /*새해기념 헤더*/
