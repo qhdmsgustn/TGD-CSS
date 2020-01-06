@@ -187,6 +187,11 @@ header #header-bar #header-top-notice strong.notice-badge {
   animation: ScrollAngle 5s ease infinite;
 }
 
+/*인기글*/
+#article-list>.article-list-row.hot {
+  background-color: #ffd1d1;
+}
+
 #article-list>.article-list-row>.item>.list-header {
   border-left: 1px solid #e5b43980;
 }
