@@ -1,4 +1,4 @@
-/*새해기념_변경_취소*/
+/*공지 배경 변경*/
 
 @font-face { 
   font-family: 'KHNPHD'; 
@@ -182,8 +182,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /*공지*/
 #article-list>.article-list-row.notice {
-  background: linear-gradient(89deg, #e5b43980, #e2d2ab80);
-  background-size: 400% 400%;
+  height: 35px;
+  background-color: #e5b43980;
+  background-image:url("./img/feeldok.png");
+  background-size: 110% 110%;
   animation: ScrollAngle 5s ease infinite;
 }
 
