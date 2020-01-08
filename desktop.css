@@ -192,6 +192,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /*인기글*/
 #article-list>.article-list-row.hot {
   background-color: #ffd1d1;
+  background-image: none;
 }
 
 #article-list>.article-list-row>.item>.list-header {
