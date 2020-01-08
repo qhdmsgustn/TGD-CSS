@@ -186,7 +186,7 @@ header #header-bar #header-top-notice strong.notice-badge {
   background-color: #e5b43980;
   background-image:url("./img/feeldok.png");
   background-size: 110% 110%;
-  animation: ScrollAngle 5s ease infinite;
+  animation: ScrollAngle 15s ease infinite;
 }
 
 /*인기글*/
