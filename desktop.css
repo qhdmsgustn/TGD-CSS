@@ -1,4 +1,4 @@
-/*공지 배경 변경*/
+/*공지 방문*/
 
 @font-face { 
   font-family: 'KHNPHD'; 
@@ -187,6 +187,10 @@ header #header-bar #header-top-notice strong.notice-badge {
   background-image:url("./img/feeldok.png");
   background-size: 110% 110%;
   animation: ScrollAngle 15s ease infinite;
+}
+
+#article-list>.article-list-row.notice>.item>.list-title>a:visited {
+  color: #ff0000 !important;
 }
 
 /*인기글*/
