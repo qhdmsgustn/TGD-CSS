@@ -186,7 +186,7 @@ header #header-bar #header-top-notice strong.notice-badge {
   background-color: #e5b43980;
   background-image:url("./img/feeldok.png");
   background-size: 110% 110%;
-  animation: ScrollAngle 15s ease infinite;
+  animation: ScrollAngle 15s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 #article-list>.article-list-row.notice>.item>.list-title>a:visited {
@@ -319,7 +319,7 @@ span.a-badge .fa.fa-star {
 
 @keyframes ScrollAngle {
   0%{background-position:0% 50%}
-  50%{background-position:400% 51%}
+  50%{background-position:220% 51%}
   100%{background-position:0% 50%}
 }
 
