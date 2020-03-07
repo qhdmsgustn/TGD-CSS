@@ -1,4 +1,4 @@
-/*봄 맞이 배경 변경_4*/
+/*봄 맞이 배경 속도 변경*/
 
 @font-face { 
   font-family: 'KHNPHD'; 
@@ -13,7 +13,7 @@ body {
   background: #f9ebebf6;
 
   min-width:1140px;
-  animation: fl_ow 35s linear infinite;
+  animation: fl_ow 70s linear infinite;
   background-image:
     url("./img/a_1.png"), url("./img/a_2.png"), url("./img/a_3.png");
 }
