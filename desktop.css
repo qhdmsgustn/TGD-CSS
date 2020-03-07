@@ -1,4 +1,4 @@
-/*공지 변경*/
+/*봄 맞이 배경 변경*/
 
 @font-face { 
   font-family: 'KHNPHD'; 
@@ -13,9 +13,9 @@ body {
   background: #FFE8AF;
 
   min-width:1140px;
-  animation: sn_ow 35s linear infinite;
+  animation: fl_ow 35s linear infinite;
   background-image:
-    url("./img/snow.png"), url("./img/snow2.png"), url("./img/snow3.png"), url("./img/snow4.png");
+    url("./img/a_1.png"), url("./img/a_2.png"), url("./img/a_3.png"), url("./img/a_4.png"), url("./img/a_5.png");
 }
 
 
@@ -346,7 +346,7 @@ span.a-badge .fa.fa-star {
   100% { background-color: #e5b439; }
 }
 
-@keyframes sn_ow {
+@keyframes fl_ow {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
   }
