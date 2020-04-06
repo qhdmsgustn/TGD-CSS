@@ -22,6 +22,30 @@ html, body, .fr-popup.emoticons, .fr-top, select.form-control, input[type=checkb
   cursor: url("./img/cur.png") 0 0, auto !important;
 }
 
+#right-search-form>#right-search-btn,
+#board-info #board-info-bottom #addFavoriteBtn,
+#article-list #article-option-area>#article-option-area-toggle-btn,
+#article-list>.article-list-row>.item>.list-title>.list-writer>span,
+.reply > .reply-header > .reply-writer.logged,
+.reply-menu,
+.btn,
+.fr-toolbar .fr-command.fr-btn,
+.fr-popup .fr-command.fr-btn,
+.fr-view img,
+.pull-left,
+a {
+ cursor: url("./img/cur.png") 0 0, auto !important;
+}
+
+span#viewers,
+#article-list #boardSearchForm .form-control,
+.fr-view,
+.fr-box.fr-basic.fr-element,
+input[type='text']
+ {
+ cursor: url("./img/cur.png") 0 0, auto !important;
+}
+
 /* 게시판 상단 줄 */
 #article-content-wrapper>.header {
   border-top: 2px solid #e5b539;
