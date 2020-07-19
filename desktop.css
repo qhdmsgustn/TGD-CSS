@@ -8,6 +8,27 @@
 }
   *{font-family:'KHNPHD'}
 
+:root {
+   --list-background-img: url(./img/bgimg.png);
+}
+
+#article-list {
+  background-image: var(--list-background-img);
+  background-repeat: no-repeat;
+  background-position: center 30px;
+  background-size: cover;
+}
+div#article-list:before {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 135px;
+  left: 0;
+  background-color: #ffffff;
+}
+
 body {
   height: auto !important;
   background: #f9ebebf6;
