@@ -13,15 +13,17 @@
 }
 
 #article-list {
+  z-index: 1;
+}
+div#article-list:after {
   background-image: var(--list-background-img);
   background-repeat: no-repeat;
   background-position: center 30px;
   background-size: cover;
-}
-div#article-list:before {
   display: block;
   content: '';
   position: absolute;
+  opacity: 0.5;
   width: 100%;
   bottom: 0;
   height: 135px;
